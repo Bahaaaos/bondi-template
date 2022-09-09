@@ -90,7 +90,7 @@ function filtering(x) { // function for filter portifolio
 
     }
 
-function navActive() { //to add active class to the list item you click on
+ //to add active class to the list item you click on
     navItem.forEach(el=>{
         el.onclick=function(){
            for(let i=0;i<navItem.length;i++){
@@ -99,8 +99,8 @@ function navActive() { //to add active class to the list item you click on
         this.classList.add("active");
         }
     });
-}
 
-navActive();
+
+
 
 
